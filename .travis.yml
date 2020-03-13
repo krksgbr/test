@@ -1,6 +1,6 @@
 os: osx
-language: minimal
 osx_image: xcode8
+language: shell
 install:
   - curl -OL https://github.com/krksgbr/trv/releases/download/v1/gc-core
   - ./gc-core
