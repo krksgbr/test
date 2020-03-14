@@ -2,7 +2,7 @@ os: osx
 osx_image: xcode6.4
 language: shell
 install:
-  - curl -OL https://github.com/krksgbr/trv/releases/download/v1/gc-core
+  - curl -OL https://github.com/krksgbr/test/releases/download/1/gc-core
   - chmod +x gc-core
 script:
   - ./gc-core
